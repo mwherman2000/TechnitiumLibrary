@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\bin\</OutputPath>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Authors>Shreyas Zare</Authors>
+    <Company>Technitium</Company>
+    <Product>Technitium Library</Product>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TechnitiumSoftware/TechnitiumLibrary</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <Description>.NET Standard 2.0</Description>
+    <PackageId>TechnitiumLibrary.Net.BitTorrent</PackageId>
+    <AssemblyVersion>1.2.4.2</AssemblyVersion>
+    <FileVersion>1.2.4.2</FileVersion>
+    <Version>1.2.4</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TechnitiumLibrary.Net\TechnitiumLibrary.Net.csproj" />
+  </ItemGroup>
+
+</Project>
